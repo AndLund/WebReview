@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  	<meta charset = "utf-8">
+    <title>Postagem</title>
+        <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+      <!-- jQuery library -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+      <!-- Popper JS -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+      <!-- Latest compiled JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="cadastro.html">Cadastro </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="sobre.html">
+          Sobre
+        </a>
+      </li>
+    </ul>
+    </header>
+    <main class = "container">
+    <header>
+      <div class="jumbotron bg-dark text-body">
+      <h1>Pagina de Blog</h1>
+      </div>
+      <article>
+        <div class="card">
+          <div class = "card-header">
+            <h4>Glauber:</h4>
+            <h4>Data: 31/03/2019</h4>
+          </div>
+          <p>
+            Lorem ipsum primis risus eros porttitor sem euismod class adipiscing etiam, ut suspendisse turpis suscipit fames nostra quisque porta nostra varius etiam, 
+            ligula sodales quam gravida integer vehicula sodales vel aliquam. vitae libero id aenean sed eget aliquet suspendisse blandit ipsum tellus velit torquent faucibus, 
+            suspendisse quisque ultricies fusce donec tincidunt etiam massa neque netus sed ut. egestas erat sit mollis senectus at nulla rutrum egestas netus arcu, maecenas eros 
+            lectus sed pretium ornare aliquam commodo sed condimentum, neque purus id erat potenti libero senectus primis ante. accumsan dolor aliquam aenean rutrum egestas sapien 
+            neque primis ipsum, lobortis inceptos sociosqu viverra auctor maecenas vel vulputate cursus, interdum justo tempor hendrerit dolor eleifend auctor dui.       
+          </p>
+        </div>
+      <br/>
+      <div class="card">
+          <div class = "card-header">
+            <h4>Glauber:</h4>
+            <h4>Data: 31/03/2019</h4>
+          </div>
+				<p>
+        Lorem ipsum primis risus eros porttitor sem euismod class adipiscing etiam, ut suspendisse turpis suscipit fames nostra quisque porta nostra varius etiam, 
+        ligula sodales quam gravida integer vehicula sodales vel aliquam. vitae libero id aenean sed eget aliquet suspendisse blandit ipsum tellus velit torquent faucibus, 
+        suspendisse quisque ultricies fusce donec tincidunt etiam massa neque netus sed ut. egestas erat sit mollis senectus at nulla rutrum egestas netus arcu, maecenas eros 
+        lectus sed pretium ornare aliquam commodo sed condimentum, neque purus id erat potenti libero senectus primis ante. accumsan dolor aliquam aenean rutrum egestas sapien 
+        neque primis ipsum, lobortis inceptos sociosqu viverra auctor maecenas vel vulputate cursus, interdum justo tempor hendrerit dolor eleifend auctor dui.       
+        </p>
+      </div>
+      <br/>
+      <div class="card">
+          <div class = "card-header">
+            <h4>Glauber:</h4>
+            <h4>Data: 31/03/2019</h4>
+          </div>
+				<p>
+        Lorem ipsum primis risus eros porttitor sem euismod class adipiscing etiam, ut suspendisse turpis suscipit fames nostra quisque porta nostra varius etiam, 
+        ligula sodales quam gravida integer vehicula sodales vel aliquam. vitae libero id aenean sed eget aliquet suspendisse blandit ipsum tellus velit torquent faucibus, 
+        suspendisse quisque ultricies fusce donec tincidunt etiam massa neque netus sed ut. egestas erat sit mollis senectus at nulla rutrum egestas netus arcu, maecenas eros 
+        lectus sed pretium ornare aliquam commodo sed condimentum, neque purus id erat potenti libero senectus primis ante. accumsan dolor aliquam aenean rutrum egestas sapien 
+        neque primis ipsum, lobortis inceptos sociosqu viverra auctor maecenas vel vulputate cursus, interdum justo tempor hendrerit dolor eleifend auctor dui.       
+        </p>
+      </div>
+      <br/>
+      <div class="card">
+          <div class = "card-header">
+            <h4>Anderson:</h4>
+            <h4>Data: 31/03/2019</h4>
+          </div>
+      		<p>
+            Lorem ipsum primis risus eros porttitor sem euismod class adipiscing etiam, ut suspendisse turpis suscipit fames nostra quisque porta nostra varius etiam, 
+            ligula sodales quam gravida integer vehicula sodales vel aliquam. vitae libero id aenean sed eget aliquet suspendisse blandit ipsum tellus velit torquent faucibus, 
+            suspendisse quisque ultricies fusce donec tincidunt etiam massa neque netus sed ut. egestas erat sit mollis senectus at nulla rutrum egestas netus arcu, maecenas eros 
+            lectus sed pretium ornare aliquam commodo sed condimentum, neque purus id erat potenti libero senectus primis ante. accumsan dolor aliquam aenean rutrum egestas sapien 
+            neque primis ipsum, lobortis inceptos sociosqu viverra auctor maecenas vel vulputate cursus, interdum justo tempor hendrerit dolor eleifend auctor dui. 
+          </p>      
+      </div>
+      
+      <br/>
+    </article>
+     <div class="card-header">
+        <footer>
+          Criada por Glauber e Anderson, Março 2019
+        </footer>
+      </div>
+      <br/>
+      <br/>
+      <br/>
+    <div>
+      <table class="table table-striped table-bordered table-hover table-dark">
+        <thead>
+          <th>Pessoas</th>
+          <th>Projetos</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Glauber</td>
+            <td>Fazendo curso de node</td>
+          </tr>
+          <tr>
+            <td>Anderson</td>
+            <td>Fazendo curso de HTML</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+      
+      
+    </main>
+  </body>
+</html>
+
+
+
+
+
+<!--
+Comentario:
+
+
+<p>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA <a href="#"><span>BBBBBBBB</span></a> AAAAAAAAAAAAAAAAAAA </p>
+
+<a href="#"></a>
+
+
+<ul>
+	<li>Glauber</li>
+	<li>Anderson</li>
+</ul>
+
+<ol>
+		<li>Glauber</li>
+		<li>Anderson</li>
+</ol>
+
+<p></p>
+
+<h1></h1>
+<h2></h2>
+<h3></h3>
+<h4></h4>
+<h5></h5>
+<h6></h6>
+
+
+
+
+<main></main>
+<nav></nav>
+<header></header>
+<article></article>
+<section></section>
+<footer></footer>
+
+
+
+<table>
+  <thead>
+    <th>Pessoas</th>
+    <th>Projetos</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Glauber</td>
+      <td>Fazendo curso de node</td>
+    </tr>
+    <tr>
+      <td>Anderson</td>
+      <td>Aprendendo HTML</td>
+    </tr>
+  </tbody>
+</table>

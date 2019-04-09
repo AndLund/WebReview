@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  	<meta charset = "utf-8">
+    <title>Postagem</title>
+    <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+      <!-- jQuery library -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+      <!-- Popper JS -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+      <!-- Latest compiled JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </head>
+  
+  <body>
+    <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home </a>
+          </li>
+        <li class="nav-item">
+           <a class="nav-link" href="cadastro.html">Cadastro </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sobre.html">
+            Sobre
+          </a>
+        </li>
+    </ul>
+    <main class="container">
+    <header>
+      <div class="jumbotron">
+      <h1>Pagina de Cadastro</h1>
+      </div>
+      <script>
+      	function cadastrausuario(){
+          alert('oi')
+        }
+      </script>
+      
+      <form action="cadastrausuario()" method="POST">
+       <h2>Cadastro de Usuário</h2>
+        <div class="form-group">
+        <label for="nome">Nome: </label>
+    		<input class="form-control" required type="text" name = "nome"/>
+        </div>
+        <br/>
+        <div class="form-group">
+        <label for="email">EMAIL: </label>
+        <input class="form-control" required type="email" name="email"/>
+        </div>
+        <br/>
+        <div class="form-group">
+        <label for="data">Data de nascimento: </label>
+        <input class="form-control" required type="date" name="data"/>
+        </div>
+        <br/>
+        <label for="sexo">Sexo: </label>
+        <div class="form-check-inline">
+        <label class="form-check-label">
+          <input class="form-check-input" required name="sexo" type="radio" value="0"/>Masculino
+        </label>
+        </div>
+        <div class="form-check-inline">
+        <label class="form-check-label">
+          <input class="form-check-input" required name="sexo" type="radio" value="1"/>Feminino
+        </label>
+        </div>
+        <br/>
+        <div class="form-group mt-4">
+        <label for="senha">Password: </label>
+        <input class="form-control" required name="senha" type="password">
+        </div>
+        <br/>
+        
+        <button class="btn btn-success mt-4" type="submit">Submeter</button>
+        
+        
+      </form>
+      
+        <br/>
+    </header>
+		<div class="card-header">
+		<footer>
+      Criada por Glauber e Anderson, Março 2019
+    </footer>
+    </div>
+      
+    </main>
+  </body>
+</html>
+
+
+
+
+
+<!--
+Comentario:
+<form>
+</form>
+-->

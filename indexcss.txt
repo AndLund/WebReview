@@ -1,0 +1,14 @@
+.titulo-da-pagina{
+  color: rgb(27, 12, 235);
+}
+.cabecalho-da-pagina{
+  padding: 10px;
+  border-bottom: 5px solid red;
+  background-image: url("http://www.iconesbr.net/iconesbr/2009/05/8331/8331_128x128.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  height: 10em;
+  width: 100%;
+  margin-top: -10px;
+}
