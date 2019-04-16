@@ -8,3 +8,4 @@
 * git checkout master
 * git merge newBranch
 * git push origin master
+* git pull
