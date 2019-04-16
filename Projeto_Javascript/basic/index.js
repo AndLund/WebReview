@@ -133,4 +133,20 @@ for(var i = 0; i<test.length; i++){
     console.log(test[i])
 }
 
+var lista = [1, 2 ,3 ,4]
 
+lista.map( elem => {
+    console.log(elem)
+}) 
+
+console.log(lista.filter(elem => {
+    return elem > 2
+}))
+
+
+console.log("-------------------------- Método foreach --------------------------")
+let frutas = [ 'uva', 'maçã', 'pera', 'abacaxi', 'jambo', 'manga', 'goiaba']
+
+frutas.forEach( (fruta, index) => {
+    console.log( fruta , index )
+})
