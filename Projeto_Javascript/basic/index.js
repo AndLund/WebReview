@@ -41,6 +41,11 @@ function recur(n){
 }
 recur(n)
 
+// Operador ternário
+
+var variavel = 4
+console.log( variavel == 4 ? 'Vale 4' : "Não vale 4" )
+
 var variavel = '4'
 console.log(variavel)
 if(variavel){
