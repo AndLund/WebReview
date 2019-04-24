@@ -4,7 +4,8 @@ const pTest = document.querySelector('.test')
 const lista = document.querySelector('.lista')
 
 
-function mudaMsg(){
+function mudaMsg(buttao){
+    console.log(buttao)
     // pTest.textContent = 'Tudo bom?'
     if(pTest.classList.contains('sumiu')){
         pTest.classList.remove('sumiu')
