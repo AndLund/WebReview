@@ -1,4 +1,4 @@
-# projeto 2 - Sistema de lista de tarefas
+# projeto 3 - Sistema de lista de tarefas
 
 # Projetos
 * O projeto visa criar um sistema de lista de tarefas. 
