@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Par ou impar</title>
+    </head>
+    <body>
+        <h1>Aprendendo o MVC</h1>
+        <input min="0" max="5" value="0" type="number" class='jogador'>
+        <button onclick="jogar('par')">par</button>
+        <button onclick="jogar('impar')">impar</button>
+        <div>
+            <p>Seu oponente jogou: <span class = "adversario"></span></p>
+        </div>
+        <div>
+            <h2 class = "resultado">Resultado</h2>
+        </div>
+
+        
+        <script src="./src/app.js"></script>
+        <!-- Controllers -->
+        <script src="./src/controllers/parImparController.js"></script>
+
+        <!-- Models -->
+        <script src="./src/models/ParImpar.js"></script>
+
+        <!-- Views -->
+        <script src="./src/views/parImparView.js"></script>
+    </body>
+</html>
