@@ -1,7 +1,7 @@
 # Sistema de senha numérica
 
-### interface :
-- o programa deve ter uma interface com 10 de 0 a 9
+### Interface :
+- o programa deve ter uma interface com 10 botões de 0 a 9
 - deve conter um botão de mode e um botão se confirmação (ok)
 - em cima dos botões deve ter um retângulo branco simulando um display. Esse display deve ter duas linhas (tag p) 
 

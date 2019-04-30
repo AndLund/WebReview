@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+    </head>
+    <body>
+        <div>
+            <h3 class = "resultado">RESULTADO</h3>
+        </div>
+        <div>
+            <h3 class = "jog">JOGADOR</h3>
+            <!-- <h2 onclick="mudarNumero()" class="jogador">0</h2> -->
+            <img onclick = "mudarNumero()" src = "./img/pedra.png" alt = "pedra" value = '0' class = "imagem">
+        </div>
+        <button onclick = "jogar()">Jogar</button>
+        <div>
+            <img class = "cpu">
+            <h3>CPU</h3>
+
+        </div>
+        <!-- Importar app.js -->
+        <script src = "./src/app.js"></script>
+        
+        <!-- Importar controller -->
+        <script src = "./src/controllers/numeroController.js"></script>
+        <script src = "./src/controllers/jogoController.js"></script>
+
+        <!-- Importar view -->
+        <script src = "./src/views/numeroView.js"></script>
+        <script src = "./src/views/jogoView.js"></script>
+        <!-- Importar modelo -->
+        <script src = "./src/models/JogoModel.js"></script>
+    </body>
+</html>

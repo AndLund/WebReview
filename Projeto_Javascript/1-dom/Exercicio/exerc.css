@@ -1,0 +1,10 @@
+body{
+    background-color: brown
+}
+.botaoLogar{
+    background-color: green;
+    color: yellow;
+}
+.botaoDeslogar{
+    background-color: red;
+}
