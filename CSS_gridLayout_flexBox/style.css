@@ -1,0 +1,88 @@
+body,
+ul,
+li,
+p {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	font-size: 1.2rem;
+	font-family: Arial;
+}
+
+body {
+	margin-bottom: 100px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 100px;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+.header {
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	align-items: center;
+}
+
+.menu {
+	display: flex;
+}
+
+.menu li {
+	margin-left: 10px;
+}
+
+.menu li a {
+	display: block;
+	padding: 10px;
+}
+
+/*flex*/
+
+.flex {
+	display: flex;
+	flex-wrap: wrap; /*quebra a linha*/
+	max-width: 800px;
+	margin: 0 auto; /*alinhar ao centro*/
+}
+
+.flex > div {
+	flex: 1 1 200px; /*tamanho minimo*/
+	margin: 10px;
+}
+
+/*grid*/
+
+.grid1 {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	max-width: 780px;
+	margin: 0 auto;
+	grid-gap: 20px;
+}
+
+.grid1 > div:nth-child(n + 4) {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+	align-items: center;
+}
+
+.grid1 > div.anuncio {
+	grid-column: 1;
+	grid-row: 2 / 5;
+	border-top: 10px solid tomato;
+	display: block;
+}
