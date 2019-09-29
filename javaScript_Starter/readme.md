@@ -93,3 +93,4 @@ setTimeout(exibeAlgo,5000);
 
 indexOf?
 for..of?
+join? (ver desafio)
