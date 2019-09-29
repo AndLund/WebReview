@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Document</title>
+	</head>
+	<body>
+		<script>
+			function teste(users) {
+				for (var i = 0; i < 2; i++) {
+					console.log(
+						"O " +
+							users[i].nome +
+							" possui as habilidades: " +
+							users[i].habilidades[0] +
+							", " +
+							users[i].habilidades[1] +
+							", " +
+							users[i].habilidades[2]
+					);
+				}
+			}
+
+			var usuarios = [
+				{
+					nome: "And",
+					habilidades: ["Javascript", "ReactJS", "Redux"]
+				},
+				{
+					nome: "Shi",
+					habilidades: ["VueJS", "Ruby on Rails", "Elixir"]
+				}
+			];
+
+			teste(usuarios);
+		</script>
+	</body>
+</html>
