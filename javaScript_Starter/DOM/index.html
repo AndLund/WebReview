@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div>
+			<button class="botao">Novo Botão</button>
+		</div>
+
+		<script>
+			var btnElement = document.querySelector("button.botao");
+
+			btnElement.onclick = function() {
+				var newSquare = document.createElement("p");
+				document.body.appendChild(newSquare);
+				p.classList.add("quadrado");
+			};
+			var classe = document.querySelectorAll(".quadrado");
+			classe.style.width = 100;
+			classe.style.height = 100;
+			classe.style.backgroundColor = "#f00";
+		</script>
+	</body>
+</html>
