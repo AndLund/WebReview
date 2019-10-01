@@ -1,0 +1,14 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+header {
+	width: 100%;
+	background-color: #cccccc;
+	padding: 20px;
+	display: flex;
+	justify-content: center; /*alinhamento horizontal p o flex direction in row*/
+	align-items: center; /*alinhamento vertical*/
+}
