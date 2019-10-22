@@ -1,0 +1,96 @@
+html {
+	box-sizing: border-box;
+}
+
+/* before referece ao primeiro filho e after ao ultimo filho */
+*,
+*:before,
+*:after {
+	box-sizing: inherit; /*verifica se no pai não há outras propriedades  que podem ser utilizadas ou afetadas, antes que seja atribuido o valor inicial*/
+}
+
+body {
+	font-family: "Source Sans Pro", sans-serif; /*fonte tirado do google*/
+	line-height: 1.5;
+	background: #f2f2f2;
+	color: #323232;
+}
+
+.pic {
+	border-radius: 50%;
+	max-width: 100%;
+	width: 130px;
+}
+
+.header {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.name {
+	font-size: 36px;
+	line-height: 1;
+}
+
+section {
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	grid-gap: 20px;
+	padding: 24px 0;
+	border-bottom: 1px solid lightgrey;
+}
+
+section:last-child {
+	border-bottom: none;
+}
+
+.section-title {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.container {
+	max-width: 960px;
+	margin: 40px auto;
+	padding: 32px;
+	background: white;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.languages-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+}
+
+.languages-container ul,
+.interest-container ul {
+	padding: 10px;
+}
+
+.map-container {
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+	height: 0;
+}
+
+.map-container iframe {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+.footer {
+	display: flex;
+	justify-content: flex-end;
+	font-weight: bolder;
+}
+
+@media only screen and (max-width: 768px) {
+	section {
+		grid-template-columns: 1fr;
+	}
+}
