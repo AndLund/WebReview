@@ -2,18 +2,20 @@ html {
 	box-sizing: border-box;
 }
 
-/* before referece ao primeiro filho e after ao ultimo filho */
-*,
-*:before,
-*:after {
+* {
 	box-sizing: inherit; /*verifica se no pai não há outras propriedades  que podem ser utilizadas ou afetadas, antes que seja atribuido o valor inicial*/
 }
 
 body {
 	font-family: "Source Sans Pro", sans-serif; /*fonte tirado do google*/
 	line-height: 1.5;
-	background: #f2f2f2;
+	background: #cfcfcf;
 	color: #323232;
+}
+
+#logonav {
+	position: fixed;
+	z-index: 1;
 }
 
 .pic {
@@ -22,9 +24,12 @@ body {
 	width: 130px;
 }
 
-.header {
-	display: flex;
-	margin-bottom: 20px;
+.slide {
+	width: 400px;
+	height: 300px;
+	height: 100%;
+	width: 100%;
+	position: relative;
 }
 
 .name {
@@ -38,10 +43,6 @@ section {
 	grid-gap: 20px;
 	padding: 24px 0;
 	border-bottom: 1px solid lightgrey;
-}
-
-section:last-child {
-	border-bottom: none;
 }
 
 .section-title {
@@ -87,9 +88,11 @@ section:last-child {
 	display: flex;
 	justify-content: flex-end;
 	font-weight: bolder;
+	align-items: center;
+	margin: 30px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 700px) {
 	section {
 		grid-template-columns: 1fr;
 	}
