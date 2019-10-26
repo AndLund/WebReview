@@ -1,28 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 		<title>Document</title>
 	</head>
 	<body>
 		<div>
-			<button class="botao">Novo Botão</button>
+			<button class="botao">clique aqui</button>
 		</div>
 
 		<script>
-			var btnElement = document.querySelector("button.botao");
+			var btn = document.querySelector("button.botao");
 
-			btnElement.onclick = function() {
-				var newSquare = document.createElement("p");
-				document.body.appendChild(newSquare);
-				p.classList.add("quadrado");
+			btn.onclick = function() {
+				var criar = document.createElement("div.quadrado");
+
+				document.body.appendChild(criar);
 			};
-			var classe = document.querySelectorAll(".quadrado");
-			classe.style.width = 100;
-			classe.style.height = 100;
-			classe.style.backgroundColor = "#f00";
+
+			var b1 = document.querySelector(".quadrado");
+			b1.style.width = 100;
+			b1.style.height = 100;
+			b1.style.backgroundColor = "#f00";
 		</script>
 	</body>
 </html>
